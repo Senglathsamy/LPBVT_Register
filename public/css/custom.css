@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'Lao Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/LaoSansPro-Regular.eot');
+    src: url('../fonts/LaoSansPro-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/LaoSansPro-Regular.woff2') format('woff2'),
+    url('../fonts/LaoSansPro-Regular.woff') format('woff'),
+    url('../fonts/LaoSansPro-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Phetsarath_OT';
+    src: url('../fonts/phetsarath_ot.eot');
+    src: url('../fonts/phetsarath_ot.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/phetsarath_ot.woff2') format('woff2'),
+    url('../fonts/phetsarath_ot.woff') format('woff'),
+    url('../fonts/phetsarath_ot.ttf') format('truetype'),
+    url('../fonts/phetsarath_ot.svg#Phetsarath_OT') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    font-family: Roboto, 'Phetsarath_OT';
+    /*font-family: 'Lao Sans Pro', Roboto;*/
+    font-size: medium;
+    padding-top: 15px;
+    /*background-color: #FFFFFF;*/
+}
+.table > tbody > tr > td {
+    vertical-align: middle;
+}
+
+.frm_width{
+    width: 300px;
+}
